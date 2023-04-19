@@ -1,0 +1,61 @@
+/* Colors
+Green : #2d5551
+Brown : #574b44
+White : #fff 
+*/
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    color: #2d5551;
+    text-align: center;
+}
+
+.hero {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-image: url("../images/mountain-lake-cropped.jpg");
+    background-size: 100% auto;
+    background-position: top;
+}
+.hero h2 {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+.justify-content-end {
+    justify-content: end;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.text-center {
+    text-align: center;
+}
+.align-items-center {
+    align-items: center;
+}
+
+.w-100 {
+    width: 100%
+}
+.w-75 {
+    width: 75%
+}
+.w-67 {
+    width: 66.6666%
+}
+.w-33 {
+    width: 33.3333%
+}
+.w-25 {
+    width: 25%;
+}
