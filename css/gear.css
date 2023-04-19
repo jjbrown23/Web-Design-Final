@@ -1,4 +1,16 @@
+/* hero styling specific to gear page */
+#gear-hero{
+  background-image: url("../images/hiker-hero.jpg");
+  background-position: 50%;
+  height: 250px;
+}
+#gear-hero h2 {
+  top: 5%;
+  color: #fff;
+  text-shadow: 2px 2px 3px #333;
+}
 
+/* main content row/column styling */
 .container {
   display: flex;
   justify-content: space-between;
@@ -21,6 +33,5 @@
   object-fit: cover;
   justify-content: space-between;
   border:black solid 2px;
-  
 }
 

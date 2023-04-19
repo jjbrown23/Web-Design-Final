@@ -8,7 +8,6 @@
     
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/gear.css">
-    <link rel="stylesheet" href="../css/navigation.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,10 +20,10 @@
 
     <header>
         <nav>
-            <ul id="nav">
-                <li><a class="active-page" href="../index.html">Home</a></li>
+            <ul class="nav">
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="gear.html">Gear</a></li>
-                <li><a href="experts.html">Experts</a></li>
+                <li><a href="experts.html">Expert Advice</a></li>
                 <li>Activities</li>
                 <li>Our Story</li>
                 <li>Contact Us</li>
@@ -32,11 +31,18 @@
         </nav>
     </header>
 
-    <h1>Gear</h1>
-   
+
+    <!-- ====== HERO IMAGE / PAGE TITLE ====== -->
+
+    <div class="hero flex justify-content-center" id="gear-hero">
+        <h2>Gear Gallery</h2>
+    </div>   
 
 
 
+    <!-- ====== MAIN CONTENT ====== -->
+
+    <!-- == Row One == -->
     <div class="container">
         <div class="card">
             <h2>Fishing</h2>
@@ -57,6 +63,7 @@
         </div>
     </div>
 
+    <!-- == Row Two == -->
     <div class="container">
         <div class="card">
             <h2>Fishing</h2>
@@ -77,6 +84,7 @@
         </div>
     </div>
 
+    <!-- == Row Three == -->
     <div class="container">
         <div class="card">
             <h2>Fishing</h2>
@@ -98,23 +106,30 @@
     </div>
 
 
+
+    
 
 
     <!-- ==== FOOTER ====== -->
 
     <footer class="align-items-center">
-        <div class="col justify-content-center">
+        <div class="col">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint illo et possimus commodi voluptatum qui atque, dignissimos ducimus corporis sequi aperiam deserunt aliquam reiciendis corrupti eos natus voluptas. Ab, dicta!</p>
         </div>
-        <div class="col justify-content-center">
+        <div class="col">
             <img src="../images/outdoor-adventure-logo-color.png" alt="Outdoor Adventure Logo">
         </div>
-        <div class="col justify-content-center">
+        <div class="col">
             <nav>
-                <ul id="nav">
-                    <li><a class="active-page" href="../index.html">Home</a></li>
+                <ul class="nav row1">
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="gear.html">Gear</a></li>
                     <li><a href="experts.html">Expert Advice</a></li>
+                </ul>
+                <ul class="nav row2">
+                    <li>Activites</li>
+                    <li>Our Story</li>
+                    <li>Contact Us</li>
                 </ul>
             </nav>
         </div>
