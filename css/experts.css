@@ -35,8 +35,8 @@
 }
 /* --images, left/right for odd/even rows-- */
 .container .profile-pic {
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
 }
 .container.odd .profile-pic {
     float: left;

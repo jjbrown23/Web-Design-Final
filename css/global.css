@@ -95,21 +95,25 @@ header .nav li {
 .nav li {
     font-family: Helvetica, sans-serif;
     display: inline;
-    padding: 20px;
-    background-color: #2d5551;
-    color: white;
 }
 .nav a:link, .nav a:visited {
     color: white;
     text-decoration: none;
-    /* background-color: #2d5551;
-    padding: 20px; */
+    padding: 20px;
+    background-color: #2d5551;
 }
 .nav a:hover {
+    filter: drop-shadow(0 0 5px #888);
+    text-decoration: underline;
+}
+.nav a.active-page {
     color: #2d5551;
     background-color: white;
+    filter: drop-shadow(0 0 7px #2d5551)
 }
 
+
+/* === FOOTER STYLING === */
 
 footer {
     width: 100%;
@@ -126,6 +130,7 @@ footer .col {
 footer img {
     width: 30%;
     background-color: white;
+    padding: 1%;
 }
 footer .nav {
     margin: 0;
