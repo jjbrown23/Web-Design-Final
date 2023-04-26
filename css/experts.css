@@ -22,30 +22,26 @@
 
 /* main content row/column styling */
 
-/* --container set up */
+/* --container set up-- */
 .container {
     width: 95%;
     margin: auto;
     margin-bottom: 10px;
-    padding: 5%;
+    padding: 3%;
     box-sizing: border-box;
-    /* background-color: #eee; */
     background-color: #2d555120;
     border: 3px solid #333;
 }
-/* --images, left/right for odd/even rows-- */
+.experts .col {
+    margin: 1%;
+}
+
+/* --images-- */
 .container .profile-pic {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: auto;
 }
-.container.odd .profile-pic {
-    float: left;
-    margin-right: 20px;
-}
-.container.even .profile-pic {
-    float: right;
-    margin-left: 20px;
-}
+
 
 /* --article header-- */
 .container .article-title {
@@ -57,30 +53,25 @@
 /* --article preview paragraph-- */
 .container .article-text {
     font-size: 25px;
-    margin: 30px 0 0 0;
+    margin: 0 0 0 0;
 }
 
 
-/* --read more button, left/right for odd/even rows-- */
+/* --read more button-- */
 .container .read-more {
     position: relative;
+    top: 25%;
 
     background-color: #574b44;
     border: none;
     border-radius: 10px;
     padding: 25px 80px;
-    margin-bottom: -20px;
+    margin-top: 10%;
+    /* margin-bottom: -20px; */
     box-sizing: border-box;
 
     color: white;
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-}
-.container.odd .read-more {
-    left: 78%;
-}
-.container.even .read-more {
-    left: 0%;
-    margin-top: 1em;
 }
