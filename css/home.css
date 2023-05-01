@@ -15,49 +15,52 @@
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
-    padding: 3%;
+    padding: 2%;
     box-sizing: border-box;
     background-color: #2d555120;
     border: 3px solid #333;
 }
-.experts .col {
-    width: 100%;
-    padding: 5px;
+.home .col {
+    /* padding: 5px; */
+    margin: 0 20px 0 20px;
 }
 
 /* --images-- */
 .container .feature-photo {
     width: 100%;
     height: auto;
+    /* margin: 0 50px 0 50px; */
 }
 
 /* --page header-- */
 .container .page-title {
-    font-size: 40px;
+    font-size: 80px;
     color: #2d5551;
     margin: 0 0 0 0;
 }
 /* --page subheader-- */
 .container .sub-head {
-
+    font-size: 30px;
+    margin: 30px 0 30px 0;
 }
 /* --article preview paragraph-- */
 .container .page-description {
-    font-size: 25px;
+    font-size: 20px;
+    color: #2d555199;
     margin: 0 0 0 0;
 }
 
 /* --read more button-- */
 .container .explore-more {
     position: relative;
-    top: 25%;
+    /* top: 25%; */
+    margin-top: 7%;
+    /* margin-bottom: -20px; */
 
     background-color: #574b44;
     border: none;
     border-radius: 10px;
     padding: 25px 80px;
-    margin-top: 10%;
-    /* margin-bottom: -20px; */
     box-sizing: border-box;
 
     color: white;

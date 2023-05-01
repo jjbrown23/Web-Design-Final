@@ -63,8 +63,11 @@ body {
 .w-67 {
     width: 66.6666%
 }
+.w-60 {
+    width: 60%
+}
 .w-40 {
-    width: 40%;
+    width: 40%
 }
 .w-33 {
     width: 33.3333%
